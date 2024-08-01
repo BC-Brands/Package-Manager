@@ -25,7 +25,7 @@ wget "https://host.bcwd.site/downloads/package/hashes/${BCPACKAGE}-script.txt" -
 DOWNHASH=$(sha256sum install.sh)
 MAINHASH=$(cat scripthash.txt)
 
-if [ $DOWNHASH = $MAINHASH ]
+if [ "$DOWNHASH" = "$MAINHASH" ]
 then
     # Proceed
     chmod 755 install.sh
