@@ -11,6 +11,11 @@ The current list of packages can be found here: https://host.bcwd.site/downloads
 Only the following are official "Pool" servers. You should not use any other mirrors.
  - https://uk2.host.bcwd.site/downloads/
 
+## Getting Started
+`bcpackage install [name]`
+`bcpackage update [name]`
+`bcpackage remove [name]`
+
 ## Contact
 You can get in contact with us by emailing packages@bcwd.site.
 For queries relating to the software, please contact software@bcwd.site
