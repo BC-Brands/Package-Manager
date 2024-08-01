@@ -1,6 +1,6 @@
 # Install the BC Brands Package Manager
 
-chmod 755 main.sh
+chmod 755 ./bin/main.sh
 
 mkdir /etc/bcpackage/
 mkdir /etc/bcpackage/bin/

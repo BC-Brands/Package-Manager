@@ -10,6 +10,18 @@ The current list of packages can be found here: https://host.bcwd.site/downloads
 ## Mirrors
 Only the following are official "Pool" servers. You should not use any other mirrors.
  - https://uk2.host.bcwd.site/downloads/
+ - https://host.bcwd.site/downloads/package/
+
+*This is now configured for you automatically, and you should not attempt to change this.*
+
+# Installation
+```
+sudo apt install git
+git clone https://github.com/BC-Brands/Package-Manager
+cd Package-Manager
+chmod 755 INSTALL.sh
+./INSTALL.sh
+```
 
 ## Getting Started
 `bcpackage install [name]`
